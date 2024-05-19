@@ -1,0 +1,226 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+main{
+    background-image: url("./images/bg.jpg");
+    height: 80vh;
+    position: relative;
+    background-size: max(1200px,100vw);    
+    display: flex;
+    flex-direction: column;
+}
+main .box{
+    opacity:0.7;
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+}
+.img1{
+    margin-top:25px;
+}
+.sign{
+    background-color: rgb(244, 2, 2);
+    color:white;
+    padding: 3px 8px;
+    width: 70px;
+    height: 37px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bolder;
+    margin-left: 8px;
+}
+.content{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.incontent{
+    text-align: center;
+}
+.first{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.second{
+    font-weight:lighter;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.third{
+    font-weight:lighter;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.625);
+    color: white;
+    position: relative;
+    z-index: 10;
+    width: 300px;
+    height: 46px;
+    padding: 5px;
+    border-color: white;
+    border-radius: 5px;
+}
+.sepration{
+    height: 7px;
+    background-color: rgba(128, 128, 128, 0.421);
+    margin-top: 193px;
+    position: relative;
+    z-index: 4px;
+}
+.firstsec{
+    display: flex;
+
+}
+.tv{
+    position: absolute;
+    z-index: 5px;
+}
+.vid{
+    position: relative;
+    top: 100px;
+    left: 82px;
+    width:460px;
+}
+.para1{
+    margin-top:140px;
+    margin-left: 120px;
+    margin-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    width: 460px;
+}
+.subhed{
+    font-weight: bolder;
+}
+.lang{
+    /* background-color: rgb(133, 131, 131); */
+    background-color: transparent;
+    width:120px;
+    height: 35px;
+    color: white;
+    border-radius: 4px;
+    border-color: aliceblue;
+    padding: 4px;
+}
+.start{
+    width: 150px;
+    text-align: center;
+    height: 58px;
+    background-color: red;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-weight: bold;
+}
+.para2{
+    margin-top:140px;
+    margin-left: 120px;
+    margin-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+
+.footer-item{
+    align-items: center;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+@media screen and (max-width: 1300px) {
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+}
+
+
+.footer a {
+font-size: 14px;
+color: white;
+}
+
+.footer-item {
+display: flex;
+flex-direction: column;
+gap: 23px;
+}
